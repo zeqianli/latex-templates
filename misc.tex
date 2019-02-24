@@ -1,0 +1,29 @@
+\documentclass[12pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[margin=1in]{geometry}
+\usepackage{hyperref}
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+\newcommand{\Hrule}{\rule{\linewidth}{0.3mm}}
+
+\makeatletter% since there's an at-sign (@) in the command name
+\renewcommand{\@maketitle}{%
+  \parindent=0pt% don't indent paragraphs in the title block
+  \centering
+  {\Large \bfseries\textsc{\@title}}
+  \HRule\par%
+  \@author \hfill \@date
+  \par
+}
+\makeatother% resets the meaning of the at-sign (@)
+
+
+\title{Research Proposal}
+\author{(Zeqian) Chris Li}
+\date{Dec 2018}
+
+\begin{document}
+\maketitle 
+\vskip 0.5cm
+
+\end{document}
