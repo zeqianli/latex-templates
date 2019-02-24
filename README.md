@@ -1,0 +1,1 @@
+My LaTeX templates for homework, presentations, misc articles, etc. 
